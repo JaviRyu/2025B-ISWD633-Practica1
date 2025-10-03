@@ -20,7 +20,7 @@ docker pull hello-world.
 NGINX es un open source software para servir webs, proxy inverso, cacheo, balanceo de carga, transmisión multimedia y más. Comenzó como un servidor web diseñado para ofrecer el máximo rendimiento y estabilidad.  
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+# docker pull nginx:alpine
 
 ### Listar imágenes
 
