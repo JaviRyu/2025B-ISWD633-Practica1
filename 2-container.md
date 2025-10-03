@@ -51,7 +51,7 @@ Crear y ejecutar inmediatamente el contenedor **srv-web2** usando la imagen ngin
 # docker run --name srv-web2 nginx:alpine
 
 **¿Qué sucede luego de la ejecución del comando?**
-# El contenedor a ejecturase en primer plano se queda ejecutando  
+# El contenedor a ejecutarse en primer plano se queda ejecutando y no permite ingresar comandos 
 
 Cuando ejecutas un contenedor en primer plano sin la opción -d (modo detach), el contenedor captura la entrada estándar (stdin) del terminal, lo que significa que el terminal queda "atrapado" y no puedes introducir más comandos hasta que detengas el contenedor.
 
@@ -63,7 +63,7 @@ Cuando un contenedor se ejecuta en segundo plano, Docker devuelve el control al 
 docker run -d --name <nombre contenedor> <nombre imagen>:tag
 ```
 Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando la imagen nginx:alpine
-# COMPLETAR
+# docker run -d --name srv-web3 nginx:alpine
 
 ### Para eliminar un contenedor
 
