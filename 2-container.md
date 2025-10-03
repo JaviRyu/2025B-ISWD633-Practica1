@@ -74,7 +74,7 @@ Eliminar el contenedor que se creó a partir de la imagen hello-world
 # docker rm recursing_goldstine
 
 Verificar que el contenedor que se eliminó
-# COMPLETAR
+# docker ps -a
 
 ### Para eliminar un contenedor que esté ejecutándose
 
@@ -85,7 +85,7 @@ Eliminar el contenedor **srv-web3**
 # docker rm -f srv-web3
 
 Verificar que el contenedor que se eliminó
-# COMPLETAR
+# docker ps
 
 ### Para inspecionar un contenedor 
 
