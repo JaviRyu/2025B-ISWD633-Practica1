@@ -71,7 +71,7 @@ Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando
 docker rm <nombre contenedor>
 ```
 Eliminar el contenedor que se creó a partir de la imagen hello-world 
-# COMPLETAR
+# docker rm recursing_goldstine
 
 Verificar que el contenedor que se eliminó
 # COMPLETAR
@@ -82,7 +82,7 @@ Verificar que el contenedor que se eliminó
 docker rm -f <nombre contenedor>
 ```
 Eliminar el contenedor **srv-web3** 
-# COMPLETAR
+# docker rm -f srv-web3
 
 Verificar que el contenedor que se eliminó
 # COMPLETAR
@@ -90,4 +90,4 @@ Verificar que el contenedor que se eliminó
 ### Para inspecionar un contenedor 
 
 Inspeccionar el contenedor **srv-web** 
-# COMPLETAR
+# docker inspect srv-web
